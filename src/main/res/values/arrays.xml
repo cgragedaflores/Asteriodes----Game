@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipusGrafics">
+        <item>Vectorial</item>
+        <item>Bitmap</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="tipusGraficsValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tipusEntrada">
+        <item>Teclado</item>
+        <item>Táctil</item>
+        <item>Sensores</item>
+    </string-array>
+    <string-array name="tipusEntradaValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tipusConnexio">
+        <item>Bluetooth</item>
+        <item>Wi-Fi</item>
+        <item>Internet</item>
+    </string-array>
+    <string-array name="tipusConnexioValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="tipoGuardarPuntuacion">
+        <item>Array</item>
+        <item>Preferencias</item>
+        <item>Archivo Interno</item>
+        <item>Archivo Externo</item>
+        <item>Archivo XML</item>
+        <item>Archivo GSON</item>
+        <item>Archivo JSON</item>
+        <item>Archivo SQLite</item>
+        <item>Archivo SQLiteRelacional</item>
+        <item>Provider</item>
+        <item>Socket</item>
+        <item>Servicio Web</item>
+    </string-array>
+    <string-array name="tipoGuardarPuntuacionValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+</resources>

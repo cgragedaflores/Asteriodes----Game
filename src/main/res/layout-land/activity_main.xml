@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingLayout"
+    android:paddingTop="@dimen/paddingLayoutTop"
+    android:paddingRight="@dimen/paddingLayout"
+    android:background="@color/background"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+    <TextView
+        android:id="@+id/aplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/title_margin"
+        android:layout_marginRight="@dimen/title_margin"
+        android:background="@color/background"
+        android:fontFamily="@font/abnes"
+        android:gravity="center"
+        android:text="@string/titol"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TableLayout
+        android:id="@+id/botons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingTop="30dp">
+
+            <soup.neumorphism.NeumorphButton
+                style="@style/ShapeAppearance.Neumorph.Button"
+                android:id="@+id/jugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:fontFamily="@font/abnes"
+                android:text="@string/jugar" />
+
+            <soup.neumorphism.NeumorphButton
+                style="@style/ShapeAppearance.Neumorph.Button"
+                android:id="@+id/configurar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:fontFamily="@font/abnes"
+                android:text="@string/configurar" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <soup.neumorphism.NeumorphButton
+                style="@style/ShapeAppearance.Neumorph.Button"
+                android:id="@+id/acerca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:fontFamily="@font/abnes"
+                android:text="@string/acerca" />
+
+            <soup.neumorphism.NeumorphButton
+                style="@style/ShapeAppearance.Neumorph.Button"
+                android:id="@+id/salir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:fontFamily="@font/abnes"
+                android:text="@string/salir" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/sortida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp" />
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeOffset="800"
+        android:gestureStrokeType="multiple" />
+</LinearLayout>

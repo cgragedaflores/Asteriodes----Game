@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingTopTitol">60dp</dimen>
+    <dimen name="paddingLayout">60dp</dimen>
+    <dimen name="marginTopTitol">100dp</dimen>
+    <dimen name="paddingTopTitol2">100dp</dimen>
+    <dimen name="marginTopButton">30dp</dimen>
+    <dimen name="title_margin">75dp</dimen>
+    <dimen name="layout_margin_sides">10dp</dimen>
+    <dimen name="padding_element_puntuacio">4dp</dimen>
+    <dimen name="paddingLayoutTop">20dp</dimen>
+</resources>

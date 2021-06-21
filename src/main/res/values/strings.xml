@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GragedaF_ex12_1</string>
+    <string name="titol">Aplicación</string>
+    <string name="jugar">Jugar</string>
+    <string name="configurar">Configurar</string>
+    <string name="acerca">Acerca de</string>
+    <string name="salir">Salir</string>
+    <string name="text_acercade">Esta aplicación ha sido desarrollada como ejemplo en el módulo de Diseño de Interficies Web para demostrar cómo se puede lanzar nuevas actividades desde la actividad principal.</string>
+    <string name="text_label">Acerca de ...</string>
+    <string name="menuconfiguracio">Configuracion</string>
+    <string name="menuacercade">Acerca de...</string>
+    <string name="menucercar">Cercar</string>
+
+    <string name="pa_key">preferencies_principal</string>
+    <string name="pa1_key">musica</string>
+    <string name="pa1_title">Reproducir música</string>
+    <string name="pa1_summary">Se reproduce música de fondo</string>
+    <string name="pa2_key">graficos</string>
+    <string name="pa2_title">Tipo de gráficos</string>
+    <string name="pa2_summary">Se escoge la representación de gráficos</string>
+    <string name="pa3_key">fragmentos</string>
+    <string name="pa3_title">Número de fragmentos</string>
+    <string name="pa3_summary">En cuantos trozos se divide un asteroide</string>
+
+    <string name="textPreferenceCategory">MODO MULTIJUGADOR</string>
+    <string name="pa4_key">multijugador</string>
+    <string name="pa4_title">Activar modo multijugador</string>
+    <string name="pa5_key">jugadores</string>
+    <string name="pa5_title">Máximo de jugadores</string>
+    <string name="pa6_key">conexion</string>
+    <string name="pa6_title">Tipo de conexión</string>
+
+
+    <string name="TextViewSubtitol">Otro texto</string>
+    <string name="pa7_key">entrada</string>
+    <string name="pa7_summary">Se escoge el tipo de entrada</string>
+    <string name="pa7_title">Tipo de entrada</string>
+
+    <string name="text_guardarArchivo">GuardarPuntuacion</string>
+    <string name="pa8_key">puntuaciones</string>
+    <string name="pa8_summary">Se escoge Como se Guarda La Puntuacion</string>
+    <string name="pa8_title">Forma de Guardar Puntuacion</string>
+    <string name="has_guanyat" translatable="false">! Has Guanyat !</string>
+    <string name="has_perdut" translatable="false">! Has Perdut !</string>
+
+</resources>

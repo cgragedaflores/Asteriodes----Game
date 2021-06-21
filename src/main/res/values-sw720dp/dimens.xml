@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingTopTitol">60dp</dimen>
+    <dimen name="paddingLayout">200dp</dimen>
+    <dimen name="marginTopTitol">100dp</dimen>
+    <dimen name="paddingTopTitol2">100dp</dimen>
+</resources>

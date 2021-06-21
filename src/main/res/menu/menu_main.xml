@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android2:id="@+id/configuracio"
+        android2:icon="@android:drawable/ic_menu_preferences"
+        android2:orderInCategory="5"
+        android2:title="@string/menuconfiguracio"
+        app:showAsAction="never" />
+    <item
+        android2:id="@+id/acercaDe"
+        android2:icon="@android:drawable/ic_menu_info_details"
+        android2:orderInCategory="10"
+        android2:title="@string/menuacercade"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android2:id="@+id/cercar"
+        android2:icon="@android:drawable/ic_menu_search"
+        android2:orderInCategory="115"
+        android2:title="@string/menucercar"
+        app:showAsAction="always|collapseActionView" />
+</menu>

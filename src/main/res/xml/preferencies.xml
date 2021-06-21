@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:defaultValue="false"
+    android:divider="@drawable/degradat"
+    android:key="@string/pa_key"
+    android:title="Configuracion">
+
+    <CheckBoxPreference
+        android:background="@color/background"
+        android:defaultValue="false"
+        android:key="@string/pa1_key"
+        android:summary="@string/pa1_summary"
+        android:title="@string/pa1_title" />
+
+    <ListPreference
+        android:background="@color/background"
+        android:defaultValue="1"
+        android:entries="@array/tipusGrafics"
+        android:entryValues="@array/tipusGraficsValors"
+        android:key="@string/pa2_key"
+        android:summary="@string/pa2_summary"
+        android:title="@string/pa2_title" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="@string/pa3_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pa3_summary"
+        android:title="@string/pa3_title" />
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/tipusEntrada"
+        android:entryValues="@array/tipusEntradaValors"
+        android:key="@string/pa7_key"
+        android:summary="@string/pa7_summary"
+        android:title="@string/pa7_title" />
+    <PreferenceCategory android:title="@string/textPreferenceCategory">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pa4_key"
+            android:title="@string/pa4_title" />
+
+        <EditTextPreference
+            android:defaultValue="4"
+            android:key="@string/pa5_key"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pa5_title" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/tipusConnexio"
+            android:entryValues="@array/tipusConnexioValors"
+            android:key="@string/pa6_key"
+            android:title="@string/pa6_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/text_guardarArchivo">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/tipoGuardarPuntuacion"
+            android:entryValues="@array/tipoGuardarPuntuacionValores"
+            android:key="@string/pa8_key"
+            android:summary="@string/pa8_summary"
+            android:title="@string/pa8_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.GragedaF_ex12_1.VistaJoc
+        android:id="@+id/VistaJoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:background="@drawable/ic_galaxy_background" />
+    <TextView
+        android:id="@+id/Victoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7F000000"
+        android:gravity="center"
+        android:text="@string/has_guanyat"
+        android:textColorLink="#FF0000"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/Derrota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7F000000"
+        android:gravity="center"
+        android:text="@string/has_perdut"
+        android:textColorLink="#FF0000"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+</FrameLayout>

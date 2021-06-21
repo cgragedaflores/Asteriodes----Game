@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GragedaF_ex12_1</string>
+    <string name="titol">Aplicació</string>
+    <string name="jugar">Jugar</string>
+    <string name="configurar">Configurar</string>
+    <string name="acerca">Informació</string>
+    <string name="salir">Sortir</string>
+    <string name="text_acercade">Aquesta aplicació ha estat desenvolupada com a exemple en el mòdul de Disseny de Interfícies Web per demostrar com es pot llançar noves activitats des de la activitat principal.</string>
+    <string name="text_label">Informació ...</string>
+    <string name="menuconfiguracio">Configuracio</string>
+    <string name="menuacercade">Informació...</string>
+    <string name="menucercar">Cercar</string>
+    <string name="pa_key">preferencies_principal</string>
+    <string name="pa1_key">musica</string>
+    <string name="pa1_title">Reproduïr música</string>
+    <string name="pa1_summary">Es reprodueix musica de fons</string>
+    <string name="pa2_key">gràfics</string>
+    <string name="pa2_title">Tipus de gràfics</string>
+    <string name="pa2_summary">Se elegeix la representació de gràfics</string>
+    <string name="pa3_key">fragments</string>
+    <string name="pa3_title">Nombre de fragments</string>
+    <string name="pa3_summary">En cuants de troços es divideix un asteroide</string>
+    <string name="textPreferenceCategory">MODE MULTIJUGADOR</string>
+    <string name="pa4_key">multijugador</string>
+    <string name="pa4_title">Activar mode multijugador</string>
+    <string name="pa5_key">jugadors</string>
+    <string name="pa5_title">Màxim de jugadors</string>
+    <string name="pa6_key">connexio</string>
+    <string name="pa6_title">Tipus de connexió</string>
+    <string name="TextViewSubtitol">Altre texte</string>
+    <string name="pa7_key">entrada</string>
+    <string name="pa7_summary">S\'escull el tipus d\'entrada</string>
+    <string name="pa7_title">Tipus d\'entrada</string>
+
+
+    <string name="text_guardarArchivo">GuardarPuntuacion</string>
+    <string name="pa8_key">puntuaciones</string>
+    <string name="pa8_summary">Se escoge Como se Guarda La Puntuacion</string>
+    <string name="pa8_title">Forma de Guardar Puntuacion</string>
+</resources>

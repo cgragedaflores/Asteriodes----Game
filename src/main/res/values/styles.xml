@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tema_aplicacio" parent="Theme.Neumorph.Light">
+        <item name="background">@color/background</item>
+        <item name="textColorAlertDialogListItem">@color/background</item>
+        <item name="alertDialogTheme">@style/tema_alert_dialog</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="tema_alert_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:editTextColor">@color/editTextColor</item>
+    </style>
+    <style name="PreferencesTheme">
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:editTextColor">@color/editTextColor</item>
+    </style>
+</resources>
